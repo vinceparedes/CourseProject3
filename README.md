@@ -1,5 +1,5 @@
-# CourseProject3 Readme
+## CourseProject3 Readme
 
-##What this code does
+###What this code does
 
-##Steps to run the code
+###Steps to run the code
