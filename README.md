@@ -4,9 +4,11 @@
 
 ###Steps to run the code
 
-Download this file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+1. Download this file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Create a working directory for the project on your computer
+2. Make sure you have the dplyr R package. 
+
+3. Create a working directory for the project on your computer
 
 Move the zip file to the working directory. Unzip the file in the working directory. 
 You will now have a directory structure that looks like: <Working Directory>/UCI HAR Dataset/
