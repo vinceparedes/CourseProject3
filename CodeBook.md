@@ -50,93 +50,100 @@ tBodyGyroJerkMean
 
 ###Variable List
 
+Variable #1 is an integer. Variable #2 is a character variable that can be used as a factor. All other variables are numeric.
+
+In the description column in the table below:
+* a 't' indicates a time variable
+* an 'f' indicates a Fast Fourier Transform (FFT) was applied to the variable
+
+
 | # | Variable Name                      |Description|
 |---|------------------------------------|-----------|
 |  1| Subject | The experimental subject's Id number| 
 |  2| Activity | A label for one of 6 activities |
-|  3| tBodyAcc.mean...X | tBodyAcc.mean...X |
-|  4| tBodyAcc.mean...Y | tBodyAcc.mean...Y
-|  5| tBodyAcc.mean...Z |
-|  6| tGravityAcc.mean...X |
-|  7| tGravityAcc.mean...Y |
-|  8| tGravityAcc.mean...Z |
-|  9| tBodyAccJerk.mean...X |
-| 10| tBodyAccJerk.mean...Y |
-| 11| tBodyAccJerk.mean...Z |
-| 12| tBodyGyro.mean...X |
-| 13| tBodyGyro.mean...Y |
-| 14| tBodyGyro.mean...Z |
-| 15| tBodyGyroJerk.mean...X |
-| 16| tBodyGyroJerk.mean...Y |
-| 17| tBodyGyroJerk.mean...Z |
-| 18| tBodyAccMag.mean.. |
-| 19| tGravityAccMag.mean.. |
-| 20| tBodyAccJerkMag.mean.. |
-| 21| tBodyGyroMag.mean.. |
-| 22| tBodyGyroJerkMag.mean.. |
-| 23| fBodyAcc.mean...X |
-| 24| fBodyAcc.mean...Y |
-| 25| fBodyAcc.mean...Z |
-| 26| fBodyAcc.meanFreq...X |
-| 27| fBodyAcc.meanFreq...Y |
-| 28| fBodyAcc.meanFreq...Z |
-| 29| fBodyAccJerk.mean...X |
-| 30| fBodyAccJerk.mean...Y |
-| 31| fBodyAccJerk.mean...Z |
-| 32| fBodyAccJerk.meanFreq...X |
-| 33| fBodyAccJerk.meanFreq...Y |
-| 34| fBodyAccJerk.meanFreq...Z |
-| 35| fBodyGyro.mean...X |
-| 36| fBodyGyro.mean...Y |
-| 37| fBodyGyro.mean...Z |
-| 38| fBodyGyro.meanFreq...X |
-| 39| fBodyGyro.meanFreq...Y |
-| 40| fBodyGyro.meanFreq...Z |
-| 41| fBodyAccMag.mean.. |
-| 42| fBodyAccMag.meanFreq.. |
-| 43| fBodyBodyAccJerkMag.mean.. |
-| 44| fBodyBodyAccJerkMag.meanFreq.. |
-| 45| fBodyBodyGyroMag.mean.. |
-| 46| fBodyBodyGyroMag.meanFreq.. |
-| 47| fBodyBodyGyroJerkMag.mean.. |
-| 48| fBodyBodyGyroJerkMag.meanFreq.. |
-| 49| angle.tBodyAccMean.gravity.          |
-| 50| angle.tBodyAccJerkMean..gravityMean. |
-| 51| angle.tBodyGyroMean.gravityMean.     |
-| 52| angle.tBodyGyroJerkMean.gravityMean. |
-| 53| angle.X.gravityMean. |
-| 54| angle.Y.gravityMean. |
-| 55| angle.Z.gravityMean. |
-| 56| tBodyAcc.std...X |
-| 57| tBodyAcc.std...Y |
-| 58| tBodyAcc.std...Z |
-| 59| tGravityAcc.std...X |
-| 60| tGravityAcc.std...Y |
-| 61| tGravityAcc.std...Z |
-| 62| tBodyAccJerk.std...X |
-| 63| tBodyAccJerk.std...Y |
-| 64| tBodyAccJerk.std...Z     | 
-| 65| tBodyGyro.std...X |
-| 66| tBodyGyro.std...Y |
-| 67| tBodyGyro.std...Z |
-| 68| tBodyGyroJerk.std...X |
-| 69| tBodyGyroJerk.std...Y |
-| 70| tBodyGyroJerk.std...Z |
-| 71| tBodyAccMag.std.. |
-| 72| tGravityAccMag.std.. |
-| 73| tBodyAccJerkMag.std.. |
-| 74| tBodyGyroMag.std.. |
-| 75| tBodyGyroJerkMag.std.. |
-| 76| fBodyAcc.std...X |
-| 77| fBodyAcc.std...Y |
-| 78| fBodyAcc.std...Z |
-| 79| fBodyAccJerk.std...X |
-| 80| fBodyAccJerk.std...Y |
-| 81| fBodyAccJerk.std...Z |
-| 82| fBodyGyro.std...X |
-| 83| fBodyGyro.std...Y |
-| 84| fBodyGyro.std...Z |
-| 85| fBodyAccMag.std.. |
-| 86| fBodyBodyAccJerkMag.std.. |
-| 87| fBodyBodyGyroMag.std.. |
-| 88| fBodyBodyGyroJerkMag.std.. |
+|  3| tBodyAcc.mean...X | t, BodyAcc.mean, X axis |
+|  4| tBodyAcc.mean...Y | t, BodyAcc.mean, Y axis|
+|  5| tBodyAcc.mean...Z | t, BodyAcc.mean, Z axis|
+|  6| tGravityAcc.mean...X | t, GravityAcc.mean, X axis|
+|  7| tGravityAcc.mean...Y |  t, GravityAcc.mean, Y axis |
+|  8| tGravityAcc.mean...Z | t, GravityAcc.mean, Z axis |
+|  9| tBodyAccJerk.mean...X | t, BodyAccJerk.mean, X axis |
+| 10| tBodyAccJerk.mean...Y | t, BodyAccJerk.mean, Y axis |
+| 11| tBodyAccJerk.mean...Z | t, BodyAccJerk.mean, Z axis |
+| 12| tBodyGyro.mean...X | t, BodyGyro.mean, X axis |
+| 13| tBodyGyro.mean...Y | t, BodyGyro.mean, Y axis |
+| 14| tBodyGyro.mean...Z | t, BodyGyro.mean, Z axis |
+| 15| tBodyGyroJerk.mean...X | t, BodyGyroJerk.mean, X axis |
+| 16| tBodyGyroJerk.mean...Y | t, BodyGyroJerk.mean, Y axis |
+| 17| tBodyGyroJerk.mean...Z | t, BodyGyroJerk.mean, Z axis |
+| 18| tBodyAccMag.mean.. | t, BodyAccMag.mean |
+| 19| tGravityAccMag.mean.. | t, GravityAccMag.mean |
+| 20| tBodyAccJerkMag.mean.. | t, BodyAccJerkMag.mean.|
+| 21| tBodyGyroMag.mean.. | t, BodyGyroMag.mean |
+| 22| tBodyGyroJerkMag.mean.. | t, BodyGyroJerkMag.mean |
+| 23| fBodyAcc.mean...X | f, BodyAcc.mean, X axis |
+| 24| fBodyAcc.mean...Y | f, BodyAcc.mean, Y axis |
+| 25| fBodyAcc.mean...Z | f, BodyAcc.mean, Z axis |
+| 26| fBodyAcc.meanFreq...X | f, BodyAcc.meanFreq, X axis |
+| 27| fBodyAcc.meanFreq...Y | f, BodyAcc.meanFreq, Y axis |
+| 28| fBodyAcc.meanFreq...Z | f, BodyAcc.meanFreq, Z axis |
+| 29| fBodyAccJerk.mean...X | f, BodyAccJerk.mean, X axis |
+| 30| fBodyAccJerk.mean...Y | f, BodyAccJerk.mean, Y axis |
+| 31| fBodyAccJerk.mean...Z | f, BodyAccJerk.mean, Z axis |
+| 32| fBodyAccJerk.meanFreq...X | f, BodyAccJerk.meanFreq, X axis |
+| 33| fBodyAccJerk.meanFreq...Y | f, BodyAccJerk.meanFreq, Y axis |
+| 34| fBodyAccJerk.meanFreq...Z | f, BodyAccJerk.meanFreq, Z axis |
+| 35| fBodyGyro.mean...X | f, BodyGyro.mean, X axis |
+| 36| fBodyGyro.mean...Y | f, BodyGyro.mean, Y axis |
+| 37| fBodyGyro.mean...Z | f, BodyGyro.mean, Z axis |
+| 38| fBodyGyro.meanFreq...X | f, BodyGyro.meanFreq, X axis |
+| 39| fBodyGyro.meanFreq...Y | f, BodyGyro.meanFreq, Y axis |
+| 40| fBodyGyro.meanFreq...Z | f, BodyGyro.meanFreq, Z axis |
+| 41| fBodyAccMag.mean.. | f, BodyAccMag.mean |
+| 42| fBodyAccMag.meanFreq.. | f, BodyAccMag.meanFreq |
+| 43| fBodyBodyAccJerkMag.mean.. | f, BodyBodyAccJerkMag.mean |
+| 44| fBodyBodyAccJerkMag.meanFreq.. | f, BodyBodyAccJerkMag.meanFreq |
+| 45| fBodyBodyGyroMag.mean.. | f, BodyBodyGyroMag.mean |
+| 46| fBodyBodyGyroMag.meanFreq.. | f, BodyBodyGyroMag.meanFreq.|
+| 47| fBodyBodyGyroJerkMag.mean.. | f, BodyBodyGyroJerkMag.mean |
+| 48| fBodyBodyGyroJerkMag.meanFreq.. | f, BodyBodyGyroJerkMag.meanFreq|
+| 49| angle.tBodyAccMean.gravity. | angle.t, BodyAccMean.gravity |
+| 50| angle.tBodyAccJerkMean..gravityMean. | angle.t, BodyAccJerkMean..gravityMean |
+| 51| angle.tBodyGyroMean.gravityMean.     | angle.t, BodyGyroMean.gravityMean.    |
+| 52| angle.tBodyGyroJerkMean.gravityMean. | angle.t, BodyGyroJerkMean.gravityMean |
+| 53| angle.X.gravityMean. | angle.X.gravityMean |
+| 54| angle.Y.gravityMean. | angle.Y.gravityMean |
+| 55| angle.Z.gravityMean. | angle.Z.gravityMean |
+| 56| tBodyAcc.std...X | t, BodyAcc.std, X axis |
+| 57| tBodyAcc.std...Y | t, BodyAcc.std, Y axis |
+| 58| tBodyAcc.std...Z | t, BodyAcc.std, Z axis |
+| 59| tGravityAcc.std...X | t, GravityAcc.std, X axis |
+| 60| tGravityAcc.std...Y | t, GravityAcc.std, Y axis |
+| 61| tGravityAcc.std...Z | t, GravityAcc.std, Z axis |
+| 62| tBodyAccJerk.std...X | t, BodyAccJerk.std, X axis |
+| 63| tBodyAccJerk.std...Y | t, BodyAccJerk.std, Y axis |
+| 64| tBodyAccJerk.std...Z | t, BodyAccJerk.std, Z axis | 
+| 65| tBodyGyro.std...X | t, BodyGyro.std, X axis |
+| 66| tBodyGyro.std...Y | t, BodyGyro.std, Y axis |
+| 67| tBodyGyro.std...Z | t, BodyGyro.std, Z axis |
+| 68| tBodyGyroJerk.std...X | t, BodyGyroJerk.std, X axis |
+| 69| tBodyGyroJerk.std...Y | t, BodyGyroJerk.std, Y axis |
+| 70| tBodyGyroJerk.std...Z | t, BodyGyroJerk.std, Z axis |
+| 71| tBodyAccMag.std.. | t, BodyAccMag.std.. |
+| 72| tGravityAccMag.std.. | tGravityAccMag.std |
+| 73| tBodyAccJerkMag.std.. | t, BodyAccJerkMag.std |
+| 74| tBodyGyroMag.std.. | t, BodyGyroMag.std.. |
+| 75| tBodyGyroJerkMag.std.. | t, BodyGyroJerkMag.std |
+| 76| fBodyAcc.std...X | f, BodyAcc.std, X axis |
+| 77| fBodyAcc.std...Y | f, BodyAcc.std, Y axis |
+| 78| fBodyAcc.std...Z | f, BodyAcc.std, Z axis |
+| 79| fBodyAccJerk.std...X | f, BodyAccJerk.std, X axis |
+| 80| fBodyAccJerk.std...Y | f, BodyAccJerk.std, Y axis |
+| 81| fBodyAccJerk.std...Z | f, BodyAccJerk.std, Z axis |
+| 82| fBodyGyro.std...X | f, BodyGyro.std, X axis |
+| 83| fBodyGyro.std...Y | f, BodyGyro.std, Y axis |
+| 84| fBodyGyro.std...Z | f, BodyGyro.std, Z axis |
+| 85| fBodyAccMag.std.. | f, BodyAccMag.std.. |
+| 86| fBodyBodyAccJerkMag.std.. | f, BodyBodyAccJerkMag.std|
+| 87| fBodyBodyGyroMag.std.. | f, BodyBodyGyroMag.std |
+| 88| fBodyBodyGyroJerkMag.std.. | f, BodyBodyGyroJerkMag.std |

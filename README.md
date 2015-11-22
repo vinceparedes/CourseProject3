@@ -6,9 +6,9 @@ This project processes raw data that you will download from the Center for Machi
 ###Output
 As a result of the processing two files are produced. These files are text files and variables are delimited by a space. 
 
-1. The first file contains observation data. Because of the way movement observations are made by the smartphone, more granular data are processed into means and standard deviations of each observation. This file contains multiple mean and standard deviation observation data by subject and activity.
+1. **dataFiltered.txt** - The first file contains observation data. Because of the way movement observations are made by the smartphone, more granular data are processed into means and standard deviations of each observation. This file contains multiple mean and standard deviation observation data by subject and activity. 
 
-2. These second file takes summarizes the observations for each variable by providing the mean for each subject by activity.
+2. **dataMeans.txt** - These second file takes summarizes the observations for each variable by providing the mean for each subject by activity.
 
 
 ###Steps to run the code
