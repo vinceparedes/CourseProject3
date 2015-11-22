@@ -1,9 +1,9 @@
-## CourseProject3 Readme
+##Course Project Readme
 
 ###Introduction
 This project processes raw data that you will download from the Center for Machine Learning and Intelligent Systems' Machine Learning Repository. The downloaded data contains samples across time from 30 subjects' movements doing 6 different activities. A Samsung Galaxy S II smartphone is used to take the multiple measurements in time for each activity per subject. 
 
-##Output
+###Output
 As a result of the processing two files are produced. These files are text files and variables are delimited by a space. 
 
 1. The first file contains observation data. Because of the way movement observations are made by the smartphone, more granular data are processed into means and standard deviations of each observation. This file contains multiple mean and standard deviation observation data by subject and activity.
