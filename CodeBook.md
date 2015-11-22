@@ -53,8 +53,8 @@ tBodyGyroJerkMean
 
 | # | Variable Name                      |Description|
 |---|------------------------------------|-----------|
-|  1| Subject |
-|  2| Activity |
+|  1| Subject | The experimental subject's Id number| 
+|  2| Activity | A label for one of 6 activities |
 |  3| tBodyAcc.mean...X |
 |  4| tBodyAcc.mean...Y |
 |  5| tBodyAcc.mean...Z |
