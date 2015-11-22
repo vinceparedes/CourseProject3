@@ -1,6 +1,7 @@
 ##Code Book
 
-This section was revised from the material provided by the UCI Machine Learning Repository along with the data here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+This section was revised from the data and documentation material provided by the UCI Machine Learning Repository. You can get more information about the data by following this link:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
 
